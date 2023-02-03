@@ -12,9 +12,9 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.xiaoxing.test'
-                artifactId = 'chen'
-                version = '1.2.0'
+                groupId = 'top.fogsong.dropper'
+                artifactId = 'FogSong'
+                version = '1.0.0'
             }
         }
     }
