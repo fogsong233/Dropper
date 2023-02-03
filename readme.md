@@ -1,6 +1,23 @@
 # Dropper
 ##### An easy Drop And Drag Api provider for Jetpack Compose.
+[![](https://jitpack.io/v/fogsong233/Dropper.svg)](https://jitpack.io/#fogsong233/Dropper)
 ### Usage
+#### Implementation
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Add the dependency
+```
+dependencies {
+	        implementation 'com.github.fogsong233:Dropper:v1.0.0'
+	}
+```
 first, create a new `Dropper` instance, and you can create `DroppableRef` and `DraggableRef`
 ```
 // <String> is which type of addition info the draggable provides to droppable with
